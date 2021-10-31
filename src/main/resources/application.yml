@@ -1,0 +1,8 @@
+server:
+  port: 8888
+# actuator 라이브러리관련 설정으로 dashboard 에서 상태 정보를 모두 반환해주겠다는 의미
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
